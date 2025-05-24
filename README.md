@@ -9,7 +9,7 @@ Laravel環境構築
 1.　docker-compose exec php bash
 2.　composer install
 3.　.env.exampleファイルをコピーし、.envファイルの作成と環境変数の変更
-4.　
+4.　php artisan make:migration create_authors_table
 5.　php artisan make:seeder AuthorsTableSeeder
 6.　
 7.　
