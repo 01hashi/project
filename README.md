@@ -10,7 +10,7 @@ Laravel環境構築
 2.　composer install
 3.　.env.exampleファイルをコピーし、.envファイルの作成と環境変数の変更
 4.　
-5.　
+5.　php artisan make:seeder AuthorsTableSeeder
 6.　
 7.　
 8.　
