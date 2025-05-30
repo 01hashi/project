@@ -18,6 +18,11 @@ Laravel環境構築
 10.　
 11.　
 
+ER図
+![image](https://github.com/user-attachments/assets/067431a6-8705-40aa-8bd9-904fc3934f2d)
+
+
+
 使用技術
 php　　　　
 laravel
