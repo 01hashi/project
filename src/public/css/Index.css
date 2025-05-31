@@ -1,0 +1,65 @@
+.header {
+    background: #fff;
+    width: 1512;
+    height: 53;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 10px;
+    border-bottom-width: 1px;
+
+}
+
+.header__inner {
+    width: 1512px;
+    height: 53px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 10px;
+    border-bottom-width: 1px;
+}
+
+.header__logo {
+    width: 112;
+    height: 33;
+    font-family: jsMath-cmti10;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background: #F5C800;
+}
+
+.h2 {
+    width: 1512;
+    height: 50;
+    padding-right: 40px;
+    padding-left: 40px;
+    gap: 1167px;
+}
+
+.product-list {
+    width: 1162;
+    height: 720;
+    gap: 20px;
+}
+
+.product-name,
+.product-price{
+    width: 374;
+    height: 69;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+

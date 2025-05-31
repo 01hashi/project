@@ -1,0 +1,110 @@
+.header__logo {
+    width: 112;
+    height: 33;
+    font-family: jsMath-cmti10;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F5C800;
+}
+
+
+/* 検索バーと価格順表示部分も左寄せにする */
+.search-bar,
+.search-form__content {
+    /* 必要に応じて追加 */
+    margin-left: 0;
+    width: 240;
+    height: 114;
+}
+
+/* select要素やフォームの内容も左寄せにしたい場合 */
+form {
+    display: flex;
+    flex-direction: column;
+    /* 縦並びにする場合 */
+    align-items: flex-start;
+    /* 左寄せ */ }
+
+
+.container {
+    display: flex;
+}
+
+/* サイドバーのスタイル */
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+.sidebar h1 {
+    width: 1512;
+    height: 50;
+    gap: 1167px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.sidebar h2 {
+    width: 1512;
+    height: 50;
+    gap: 1167px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 240;
+    height: 44;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 10px;
+    background: #F5C800;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    /* 垂直方向の中央揃え */
+}
+
+.product-info {
+    margin-left: 10px;
+    /* 必要に応じて調整してください */
+}
+
+.product-list {
+
+}
+
+/* 例：スライダーのスタイル */
+.slider {
+    overflow: hidden;
+    /* はみ出した部分を隠す */
+    width: 100%;
+    /* 必要に応じて調整 */
+    position: relative;
+}
+
+.product-list {
+    display: flex;
+    transition: transform 0.5s ease;
+    /* スライドのアニメーション */
+    /* 初期位置は0 */ 
+}
