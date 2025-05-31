@@ -11,12 +11,7 @@ Laravel環境構築
 3.　.env.exampleファイルをコピーし、.envファイルの作成と環境変数の変更
 4.　php artisan make:migration create_authors_table
 5.　php artisan make:seeder AuthorsTableSeeder
-6.　
-7.　
-8.　
-9　
-10.　
-11.　
+　
 
 ER図
 
@@ -25,10 +20,9 @@ ER図
 
 
 
-使用技術
-php　　　　
-laravel
-MYQSL
+使用技術　
+php：8.0
+laravel：8.75
 
 URL
 ・開発環境　http://localhost/
